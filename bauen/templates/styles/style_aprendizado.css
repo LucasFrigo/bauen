@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.lay_white{
+width: 100%;
+height: 100%;
+opacity: 1;
+position: absolute;
+top: 0px;
+left: 0px;
+overflow: hidden;
+}
+.sub_center{
+    width: 58%;
+    height: 95%;
+    background-color: gray;
+    position: absolute;
+    top: 35px;
+    left: 290px;
+    overflow: hidden;
+}
+.upper_center{
+    width: 100%;
+    height: 270px;
+    background-color: honeydew;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+.txt_aprend{
+    width: 200px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 15px;
+    left: 2px;
+    font-family: sans-serif;
+    font-weight: Bold;
+    font-size: 38px;
+    text-align: left;
+}
+.upper_gray{
+    width: 98%;
+    height: 150px;
+    background: rgba(196,196,196,1);
+    position: absolute;
+    top: 75px;
+    left: 7px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.low_center{
+    width: 100%;
+    height: 330px;
+    background: rgb(184, 240, 184);
+    position: absolute;
+    top: 270px;
+    left: 0px;
+    overflow: hidden;
+}
+.aba_aprend{
+    width: 200px;
+    height: 150px;
+    background: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgb(0,0,0);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.aba_rev{
+    width: 200px;
+    height: 150px;
+    background: white;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    border: 1px solid rgb(0,0,0);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.span_aba1{
+    width: 250px;
+    color: rgb(0,0,0);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-family: sans-serif;
+    font-weight: Bold;
+    font-size: 30px;
+    text-align: left;
+}
+.campo_abas{
+    width: 100%;
+    height: 350px;
+    background: rgba(255,255,255,1);
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    border: 1px solid rgba(0,0,0,1);
+    border-radius: 7px;
+}
+
+.bar_left_ye{
+    width: 200px;
+    height: 95%;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    overflow: hidden;
+}
+.campo_ye{
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 213, 0);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+    
+
+
