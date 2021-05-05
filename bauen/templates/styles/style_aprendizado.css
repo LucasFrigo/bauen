@@ -17,7 +17,7 @@ left: 0px;
 overflow: hidden;
 }
 .sub_center{
-    width: 58%;
+    width: 56%;
     height: 95%;
     background-color: gray;
     position: absolute;
@@ -45,7 +45,7 @@ overflow: hidden;
     left: 2px;
     font-family: sans-serif;
     font-weight: Bold;
-    font-size: 38px;
+    font-size: 32px;
     text-align: left;
 }
 .upper_gray{
@@ -60,7 +60,7 @@ overflow: hidden;
 }
 .low_center{
     width: 100%;
-    height: 330px;
+    height: 360px;
     background: rgb(184, 240, 184);
     position: absolute;
     top: 270px;
@@ -97,26 +97,86 @@ overflow: hidden;
     left: 5px;
     font-family: sans-serif;
     font-weight: Bold;
-    font-size: 30px;
+    font-size: 25px;
     text-align: left;
 }
 .campo_abas{
     width: 100%;
-    height: 350px;
+    height: 280px;
     background: rgba(255,255,255,1);
     position: absolute;
-    top: 60px;
+    top: 55px;
     left: 0px;
     border: 1px solid rgba(0,0,0,1);
     border-radius: 7px;
 }
+.anima_link{
+    width: 80px;
+    font-family: sans-serif;
+    font-weight: Bold;
+    font-size: 15px;
+    text-align: left;
+    color: #000000;
+    line-height: 60px;
+    white-space: nowrap;
+    transition-property: color;
+    transition-duration: 0.15s;
+    cursor: pointer;
+    outline: 0 none;
+    text-decoration: none;
+}
+.link_inicio{
+    position: absolute;
+    top:100px;
+    left:20px
 
+}
+.link_Mclasse{
+    position: absolute;
+    top: 160px;
+    left:20px
+
+}
+.link_Prog{
+    position: absolute;
+    top:215px;
+    left:20px
+
+}
+.link_Carr{
+    position: absolute;
+    top:270px;
+    left:20px
+
+}
+.link_Aprend{
+    position: absolute;
+    top:325px;
+    left:20px
+
+}
+.link_Sair{
+    position: absolute;
+    top:380px;
+    left:20px
+
+}
+.bar_right_white{
+    width: 13%;
+    height: 80%;
+    background: grey;
+    position: absolute;
+    top: 115px;
+    right:100px;
+    overflow: hidden;
+    border-radius: 15px;
+}
 .bar_left_ye{
     width: 200px;
     height: 95%;
     position: absolute;
     top: 30px;
-    left: 20px;
+    left: 40px;
     overflow: hidden;
 }
 .campo_ye{
@@ -129,6 +189,8 @@ overflow: hidden;
     border-radius: 7px;
     overflow: hidden;
 }
+
+
     
 
 
