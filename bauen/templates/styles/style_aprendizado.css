@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.lay_white{
+width: 100%;
+height: 100%;
+opacity: 1;
+position: absolute;
+top: 0px;
+left: 0px;
+overflow: hidden;
+}
+.sub_center{
+    width: 56%;
+    height: 95%;
+    background: rgb(255,255,255);
+    position: absolute;
+    top: 35px;
+    left: 290px;
+    overflow: hidden;
+}
+.upper_center{
+    width: 100%;
+    height: 270px;
+    background:  rgb(255,255,255);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+.txt_aprend{
+    width: 200px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 15px;
+    left: 2px;
+    font-family: sans-serif;
+    font-weight: Bold;
+    font-size: 32px;
+    text-align: left;
+}
+.upper_gray{
+    width: 98%;
+    height: 150px;
+    background: rgba(196,196,196,1);
+    position: absolute;
+    top: 75px;
+    left: 7px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.low_center{
+    width: 100%;
+    height: 360px;
+    background:  rgb(255,255,255);
+    position: absolute;
+    top: 270px;
+    left: 0px;
+    overflow: hidden;
+}
+.aba_aprend{
+    width: 200px;
+    height: 150px;
+    background: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgb(0,0,0);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.aba_rev{
+    width: 200px;
+    height: 150px;
+    background: white;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    border: 1px solid rgb(0,0,0);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.span_aba1{
+    width: 250px;
+    color: rgb(0,0,0);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-family: sans-serif;
+    font-weight: Bold;
+    font-size: 25px;
+    text-align: left;
+}
+.campo_abas{
+    width: 100%;
+    height: 280px;
+    background: rgba(255,255,255,1);
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    border: 1px solid rgba(0,0,0,1);
+    border-radius: 7px;
+}
+.anima_link{
+    width: 80px;
+    font-family: sans-serif;
+    font-weight: Bold;
+    font-size: 15px;
+    text-align: left;
+    color: #000000;
+    line-height: 60px;
+    white-space: nowrap;
+    transition-property: color;
+    transition-duration: 0.15s;
+    cursor: pointer;
+    outline: 0 none;
+    text-decoration: none;
+}
+.link_inicio{
+    position: absolute;
+    top:100px;
+    left:20px
+
+}
+.link_Mclasse{
+    position: absolute;
+    top: 160px;
+    left:20px
+
+}
+.link_Prog{
+    position: absolute;
+    top:215px;
+    left:20px
+
+}
+.link_Carr{
+    position: absolute;
+    top:270px;
+    left:20px
+
+}
+.link_Aprend{
+    position: absolute;
+    top:325px;
+    left:20px
+
+}
+.link_Sair{
+    position: absolute;
+    top:380px;
+    left:20px
+
+}
+.bar_right_white{
+    width: 13%;
+    height: 80%;
+    background:rgba(196,196,196,1);
+    position: absolute;
+    top: 115px;
+    right:100px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.bar_left_ye{
+    width: 200px;
+    height: 95%;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    overflow: hidden;
+}
+.campo_ye{
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 213, 0);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.space_bar-pesquisa{
+    background: rgb(255, 255, 255);
+    width: 29%;
+    height: 9%;
+    left: 64%;
+  /*right:8%;*/
+    top: 30px;
+    position: absolute;
+    
+    
+
+}
+
+#divBusca{
+    background-color:rgb(255,255,255);
+    border:solid 1px;
+    border-radius:15px;
+    width:70%;
+    height: 60%;
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    color: rgba(0,0,0,1);
+    padding-left:5px;
+    font-style:italic;
+    font-size:16px;
+    border:none;
+    height:32px;
+    width:260px;
+  }
+  .id-user{
+    background-color:rgba(196,196,196,1);
+    border:solid 1px;
+    border-radius:20px;
+    width:20%;
+    right: 2px;
+    height:90%;
+    top: 2px;
+    position: absolute;
+  }
+
+
