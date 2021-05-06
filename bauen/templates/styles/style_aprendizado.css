@@ -19,7 +19,7 @@ overflow: hidden;
 .sub_center{
     width: 56%;
     height: 95%;
-    background-color: gray;
+    background: rgb(255,255,255);
     position: absolute;
     top: 35px;
     left: 290px;
@@ -28,10 +28,7 @@ overflow: hidden;
 .upper_center{
     width: 100%;
     height: 270px;
-    background-color: honeydew;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    background:  rgb(255,255,255);
     position: absolute;
     top: 0px;
     left: 0px;
@@ -61,7 +58,7 @@ overflow: hidden;
 .low_center{
     width: 100%;
     height: 360px;
-    background: rgb(184, 240, 184);
+    background:  rgb(255,255,255);
     position: absolute;
     top: 270px;
     left: 0px;
@@ -164,7 +161,7 @@ overflow: hidden;
 .bar_right_white{
     width: 13%;
     height: 80%;
-    background: grey;
+    background:rgba(196,196,196,1);
     position: absolute;
     top: 115px;
     right:100px;
@@ -189,8 +186,51 @@ overflow: hidden;
     border-radius: 7px;
     overflow: hidden;
 }
-
-
+.space_bar-pesquisa{
+    background: rgb(255, 255, 255);
+    width: 29%;
+    height: 9%;
+    left: 64%;
+  /*right:8%;*/
+    top: 30px;
+    position: absolute;
     
+    
+
+}
+
+#divBusca{
+    background-color:rgb(255,255,255);
+    border:solid 1px;
+    border-radius:15px;
+    width:70%;
+    height: 60%;
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    color: rgba(0,0,0,1);
+    padding-left:5px;
+    font-style:italic;
+    font-size:16px;
+    border:none;
+    height:32px;
+    width:260px;
+  }
+  .id-user{
+    background-color:rgba(196,196,196,1);
+    border:solid 1px;
+    border-radius:20px;
+    width:20%;
+    right: 2px;
+    height:90%;
+    top: 2px;
+    position: absolute;
+  }
 
 
