@@ -1,0 +1,349 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: #ffffff;
+    overflow: scroll;
+    
+}
+
+.lay_white{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+/* Layout do centro  da tela*/
+
+.layout_center{
+    width: 73%;
+    height: 700px;
+    background: rgb(255,150,255);
+    position: absolute;
+    top: 35px;
+    left: 290px;
+    overflow: hidden;
+}
+
+/* Layout Centro superior*/
+
+.upper_center{
+    width: 100%;
+    height: 100%;
+    background:  rgb(255, 255, 255);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+.espaco_carreira{
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top:70px;
+    left: 2px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.txt_mapacarr{
+    width: 300px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 15px;
+    left: 2px;
+    font-family: sans-serif;
+    font-weight: Bold;
+    font-size: 32px;
+    text-align: left;
+}
+/*layout da  geral carreira dentro da aba selecionada*/
+.carreira{
+    width: 100%;
+    background: rgb(255, 255, 255);
+    height: 500px;
+    top: 0px;
+    left: 0;
+    padding-left: 20px;
+    padding-top: 35px;
+    padding-right: 20px;
+    padding-bottom: 35px;
+    position: absolute;
+   
+}
+/*layout detro da carreira  esquerdo*/
+.banner_carreira1{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    float: left;
+    border-left: rgba(0,0,0,1) solid 1px;
+    border-bottom: solid 1px;
+    border-top: solid 1px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px; 
+    
+}
+
+/*layout detro da carreira direito*/
+.banner_carreira2{
+    width: 50%;
+    height: 100%;
+    background: rgb(255, 255, 255) ;
+    padding: 10px;
+    float: left;
+    border-right: rgba(0,0,0,1) solid 1px;
+    border-bottom: solid 1px;
+    border-top: solid 1px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    }
+.txt-nome_carreira{
+    width: 400px;
+    color: rgba(0,0,0,1);
+    font-family: sans-serif;
+    font-weight: Bold;
+    font-size: 20px;
+    text-align: center;
+    top: 35px;
+    left: 10px;
+    position: relative;    
+}
+
+.txt-salario_carreira{
+    width: 200px;
+    color: rgba(0,0,0,1);
+    font-family: sans-serif;
+    font-weight: Bold;
+    font-size: 20px;
+    text-align: left;
+    top: 380px;
+    left: 490px;
+    position: absolute;  
+}
+.caixa-de-texto{
+    background: rgb(255, 255, 255);
+    width: 400px;
+    height: 200px;
+    border-radius: 7px;
+    overflow-y: scroll;
+    top: 130px;
+    left: 500px;
+    position: absolute;
+    padding: 10px;
+    
+}
+
+
+
+
+/* Layout  de Navegação*/
+
+.nav_tabs{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: relative;
+   
+}
+
+.nav_tabs ul{
+    list-style: none;
+}
+
+.nav_tabs ul li{
+    float: left;
+}
+
+.tab_label{
+    display: block;
+    width: 250px;
+    background-color: #ffffff;
+    padding: 25px;
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+}
+
+
+.nav_tabs .rd_tab { 
+display:none;
+position: absolute;
+}
+
+.nav_tabs .rd_tab:checked ~ label { 
+background-color: #23d1ce;
+color:#fff;
+border: solid 1px;
+border-color: #000000;
+
+}
+
+.tab-content{
+border-top: solid 5px #941095;
+background-color: rgb(252, 252, 252);
+display: none;
+color: #000000;
+position: absolute;
+height: 500px;
+width: 95%;
+left: 0;	
+}
+
+.rd_tab:checked ~ .tab-content{
+display: block;
+}
+.tab-content h2{
+padding: 10px;
+color: #87d3b7;
+}
+.tab-content article{
+padding: 10px;
+color: #555;
+}
+
+/*Layout Direito (Barra branca)*/
+
+
+
+
+
+/* Layout do lado esquerdo da tela (Barra amarela)*/
+
+.bar_left_ye{
+    width: 200px;
+    height: 98%;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    overflow: hidden;
+}
+
+/*Campo amarelo*/
+.campo_ye{
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 213, 0);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+
+.anima_link{
+    width: 80px;
+    font-family: sans-serif;
+    font-weight: Bold;
+    font-size: 15px;
+    text-align: left;
+    color: #000000;
+    line-height: 45px;
+    white-space: nowrap;
+    transition-property: color;
+    transition-duration: 0.15s;
+    cursor: pointer;
+    outline: 0 none;
+    text-decoration: none;
+}
+.link_inicio{
+    position: absolute;
+    top:100px;
+    left:20px
+
+}
+.link_Mclasse{
+    position: absolute;
+    top: 160px;
+    left:20px
+
+}
+.link_Prog{
+    position: absolute;
+    top:215px;
+    left:20px
+
+}
+.link_Carr{
+    position: absolute;
+    top:270px;
+    left:20px
+
+}
+.link_Aprend{
+    position: absolute;
+    top:325px;
+    left:20px
+
+}
+.link_Sair{
+    position: absolute;
+    top:380px;
+    left:20px
+
+}
+#link_position{
+    left: 20px;
+    top: 3px;
+    position: relative;
+}
+
+
+/* Layout da barra de pesquisa
+*/
+.space_bar-pesquisa{
+    background: rgb(255, 255, 255);
+    width: 29%;
+    height: 9%;
+    left: 64%;
+  /*right:8%;*/
+    top: 30px;
+    position: absolute;
+}
+
+#divBusca{
+    background-color:rgb(255,255,255);
+    border:solid 1px;
+    border-radius:15px;
+    width:70%;
+    height: 60%;
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    color: rgba(0,0,0,1);
+    padding-left:5px;
+    font-style:italic;
+    font-size:16px;
+    border:none;
+    height:32px;
+    width:260px;
+  }
+  .id-user{
+    background-color:rgba(196,196,196,1);
+    border:solid 1px;
+    border-radius:20px;
+    width:20%;
+    right: 2px;
+    height:90%;
+    top: 2px;
+    position: absolute;
+  }
+
+
+ 
+
