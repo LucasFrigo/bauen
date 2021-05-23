@@ -1,0 +1,351 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: #ffffff;
+    overflow: scroll;
+    
+}
+
+.lay_white{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+/* Layout do centro da tela*/
+
+.layout_center{
+    width: 73%;
+    height: 700px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: 35px;
+    left: 290px;
+    overflow: hidden;
+}
+
+/* Layout Centro superior */
+
+.upper_center{
+    width: 100%;
+    height: 100%;
+    background:  rgb(255, 255, 255);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.txt_dash{
+    width: 400px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 15px;
+    left: 2px;
+    font-family: sans-serif;
+    font-weight: Bold;
+    font-size: 25px;
+    text-align: left;
+}
+.txt_dash2{
+    width: 400px;
+    color: rgb(102, 102, 102);
+    position: absolute;
+    top: 45px;
+    left: 2px;
+    font-family: sans-serif;
+    font-weight: Bold;
+    font-size: 12px;
+    text-align: left;
+}
+/* layout das estatisticas e do "continue assistindo*/
+.lay_dados{
+    width: 98%;
+    height: 200px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: 80px;
+    left: 0;   
+}
+.estatisticas{
+    width: 45%;
+    height: 99%;
+    float: left;
+    background: rgb(255, 255, 255);
+    position: relative;
+    
+}
+.estatisticas .txt_dash{
+ 
+        width: 400px;
+        color: rgba(0,0,0,1);
+        position: relative;
+        top: 15px;
+        left: 5px;
+        font-family: sans-serif;
+        font-weight: Bold;
+        font-size: 20px;
+        text-align: left;
+}
+
+.banners{
+    width: 115px;
+    height: 125px;
+    background: rgb(207, 207, 207);
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+div .estatisticas #ban1{
+    top: 50px;
+    left: 5px;
+    position: absolute;    
+}
+div .estatisticas #ban2{
+    top: 50px;
+    left: 145px;
+    position: absolute;    
+}
+div .estatisticas #ban3{
+    top: 50px;
+    left: 285px;
+    position: absolute;    
+}
+
+/*Layout continue assistindo*/
+.cont_assist{
+    width: 45%;
+    height: 99%;
+    float: left;
+    background: rgb(255, 255, 255);
+    position: relative;
+    
+}
+.cont_assist .txt_dash{
+    width: 400px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-family: sans-serif;
+    font-weight: Bold;
+    font-size: 20px;
+    text-align: left;
+
+}
+.cont_assist .banners_videos{
+    width: 200px;
+    height: 125px;
+    background: rgb(207, 207, 207);
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.cont_assist #bancont1{
+    top: 50px;
+    left: 15px;
+    position: relative;   
+    float: left; 
+}
+.cont_assist #bancont2{
+    top: 50px;
+    left: 30px;
+    position: relative;    
+    float: left;
+}
+/* layout do  "seus corsos "*/
+.dados_curso{
+    width: 98%;
+    height: 300px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: 300px;
+    left: 0; 
+    
+}
+.dados_curso .txt_dash{
+    width: 400px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 15px;
+    left: 2px;
+    font-family: sans-serif;
+    font-weight: Bold;
+    font-size: 20px;
+    text-align: left;
+}
+.dados_curso .banners_cursos{
+    width: 190px;
+    height: 240px;
+    background: rgb(207, 207, 207);
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.dados_curso #banncurso1{
+    top: 50px;
+    left: 10px;
+    position: relative;   
+    float: left; 
+}
+.dados_curso #banncurso2{
+    top: 50px;
+    left: 40px;
+    position: relative;    
+    float: left;
+}
+.dados_curso #banncurso3{
+    top: 50px;
+    left: 70px;
+    position: relative;    
+    float: left;
+}
+.dados_curso #banncurso4{
+    top: 50px;
+    left: 100px;
+    position: relative;    
+    float: left;
+}
+
+
+/* Layout do lado esquerdo da tela (Barra amarela)*/
+
+.bar_left_ye{
+    width: 200px;
+    height: 98%;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    overflow: hidden;
+}
+
+/*Campo amarelo*/
+.campo_ye{
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 213, 0);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+
+.anima_link{
+    width: 80px;
+    font-family: sans-serif;
+    font-weight: Bold;
+    font-size: 15px;
+    text-align: left;
+    color: #000000;
+    line-height: 45px;
+    white-space: nowrap;
+    transition-property: color;
+    transition-duration: 0.15s;
+    cursor: pointer;
+    outline: 0 none;
+    text-decoration: none;
+}
+.link_inicio{
+    position: absolute;
+    top:100px;
+    left:20px
+
+}
+.link_Mclasse{
+    position: absolute;
+    top: 160px;
+    left:20px
+
+}
+.link_Prog{
+    position: absolute;
+    top:215px;
+    left:20px
+
+}
+.link_Carr{
+    position: absolute;
+    top:270px;
+    left:20px
+
+}
+.link_Aprend{
+    position: absolute;
+    top:325px;
+    left:20px
+}
+.link_Config{
+    position: absolute;
+    top:380px;
+    left:20px
+
+}
+.link_Sair{
+    position: absolute;
+    top:435px;
+    left:20px
+}
+#link_position{
+    left: 20px;
+    top: 3px;
+    position: relative;
+}
+
+
+/* Layout da barra de pesquisa
+*/
+.space_bar-pesquisa{
+    background: rgb(255, 255, 255);
+    width: 29%;
+    height: 9%;
+    left: 64%;
+  /*right:8%;*/
+    top: 30px;
+    position: absolute;
+}
+
+#divBusca{
+    background-color:rgb(255,255,255);
+    border:solid 1px;
+    border-radius:15px;
+    width:70%;
+    height: 60%;
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    color: rgba(0,0,0,1);
+    padding-left:5px;
+    font-style:italic;
+    font-size:16px;
+    border:none;
+    height:32px;
+    width:260px;
+  }
+  .id-user{
+    background-color:rgba(196,196,196,1);
+    border:solid 1px;
+    border-radius:20px;
+    width:20%;
+    right: 2px;
+    height:90%;
+    top: 2px;
+    position: absolute;
+  }
+
+
+ 
+
