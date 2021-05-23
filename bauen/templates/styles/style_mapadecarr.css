@@ -162,9 +162,9 @@ body {
 
 .tab_label{
     display: block;
-    width: 250px;
+    width: 230px;
     background-color: #ffffff;
-    padding: 25px;
+    padding: 14px;
     font-size: 20px;
     color:rgb(0, 0, 0);
     cursor: pointer;
