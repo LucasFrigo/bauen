@@ -308,11 +308,15 @@ body {
     left:20px
 
 }
-.link_Sair{
+.link_Config{
     position: absolute;
     top:380px;
     left:20px
-
+}
+.link_Sair{
+    position: absolute;
+    top:435px;
+    left:20px
 }
 #link_position{
     left: 20px;
