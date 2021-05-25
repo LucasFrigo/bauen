@@ -4,18 +4,20 @@
 
 body {
     background-color: #ffffff;
-    overflow: hidden;
+    overflow: scroll;
+    
 }
 
 .lay_white{
-width: 100%;
-height: 100%;
-opacity: 1;
-position: absolute;
-top: 0px;
-left: 0px;
-overflow: hidden;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
 }
+/*Layout Central da tela */
 .sub_center{
     width: 56%;
     height: 95%;
@@ -25,10 +27,11 @@ overflow: hidden;
     left: 290px;
     overflow: hidden;
 }
+/*Layout superior central*/
 .upper_center{
     width: 100%;
-    height: 270px;
-    background:  rgb(255,255,255);
+    height: 230px;
+    background:  rgb(255, 255, 255);
     position: absolute;
     top: 0px;
     left: 0px;
@@ -48,64 +51,118 @@ overflow: hidden;
 .upper_gray{
     width: 98%;
     height: 150px;
-    background: rgba(196,196,196,1);
+    background: rgb(207, 207, 207);
     position: absolute;
     top: 75px;
     left: 7px;
     border-radius: 10px;
     overflow: hidden;
 }
+
+/*Layout Inferior central*/
 .low_center{
     width: 100%;
-    height: 360px;
-    background:  rgb(255,255,255);
+    height: 800px;
+    background:  rgb(255, 255, 255);
     position: absolute;
-    top: 270px;
+    top: 231px;
     left: 0px;
     overflow: hidden;
 }
-.aba_aprend{
-    width: 200px;
-    height: 150px;
-    background: white;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border: 1px solid rgb(0,0,0);
-    border-radius: 10px;
-    overflow: hidden;
-}
-.aba_rev{
-    width: 200px;
-    height: 150px;
-    background: white;
-    position: absolute;
-    top: 0px;
-    left: 200px;
-    border: 1px solid rgb(0,0,0);
-    border-radius: 10px;
-    overflow: hidden;
-}
-.span_aba1{
-    width: 250px;
-    color: rgb(0,0,0);
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    font-family: sans-serif;
-    font-weight: Bold;
-    font-size: 25px;
-    text-align: left;
-}
-.campo_abas{
+.carreira{
     width: 100%;
-    height: 280px;
-    background: rgba(255,255,255,1);
+    background: rgb(255, 255, 255);
+    height: 500px;
+    top: 0px;
+    left: 0;
+    padding-left: 20px;
+    padding-top: 35px;
+    padding-right: 20px;
+    padding-bottom: 35px;
     position: absolute;
-    top: 55px;
+}
+.banners{
+    width: 125px;
+    height: 125px;
+    background: rgb(207, 207, 207);
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+#ban1{
+    top: 30px;
+    left: 100px;
+    position: absolute;    
+}
+#ban2{
+    top: 170px;
+    left: 100px;
+    position: absolute;    
+}
+#ban3{
+    top: 30px;
+    left: 240px;
+    position: absolute;    
+}
+#ban4{
+    top: 170px;
+    left: 240px;
+    position: absolute;    
+}
+
+#ban5{
+    top: 30px;
+    left: 380px;
+    position: absolute; 
+}
+#ban6{
+    top: 170px;
+    left: 380px;
+    position: absolute;    
+}
+#ban7{
+    top: 30px;
+    left: 520px;
+    position: absolute; 
+}
+#ban8{
+    top: 170px;
+    left: 520px;
+    position: absolute;    
+}
+/*Layout da barra Direita Banner*/
+.bar_right_white{
+    width: 13%;
+    height: 80%;
+    background:rgb(207, 207, 207);
+    position: absolute;
+    top: 115px;
+    right:100px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+
+
+/*Layout da barra esquerda */
+.bar_left_ye{
+    width: 200px;
+    height: 98%;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    overflow: hidden;
+}
+/*Campo amarelo*/
+.campo_ye{
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 213, 0);
+    position: absolute;
+    top: 0px;
     left: 0px;
-    border: 1px solid rgba(0,0,0,1);
     border-radius: 7px;
+    overflow: hidden;
 }
 .anima_link{
     width: 80px;
@@ -114,7 +171,7 @@ overflow: hidden;
     font-size: 15px;
     text-align: left;
     color: #000000;
-    line-height: 60px;
+    line-height: 45px;
     white-space: nowrap;
     transition-property: color;
     transition-duration: 0.15s;
@@ -152,40 +209,17 @@ overflow: hidden;
     left:20px
 
 }
-.link_Sair{
+.link_Config{
     position: absolute;
     top:380px;
     left:20px
-
 }
-.bar_right_white{
-    width: 13%;
-    height: 80%;
-    background:rgba(196,196,196,1);
+.link_Sair{
     position: absolute;
-    top: 115px;
-    right:100px;
-    overflow: hidden;
-    border-radius: 15px;
+    top:435px;
+    left:20px
 }
-.bar_left_ye{
-    width: 200px;
-    height: 95%;
-    position: absolute;
-    top: 30px;
-    left: 40px;
-    overflow: hidden;
-}
-.campo_ye{
-    width: 100%;
-    height: 100%;
-    background: rgb(255, 213, 0);
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border-radius: 7px;
-    overflow: hidden;
-}
+ /* Layout da barra de pesquisa*/
 .space_bar-pesquisa{
     background: rgb(255, 255, 255);
     width: 29%;
@@ -194,11 +228,7 @@ overflow: hidden;
   /*right:8%;*/
     top: 30px;
     position: absolute;
-    
-    
-
 }
-
 #divBusca{
     background-color:rgb(255,255,255);
     border:solid 1px;
@@ -208,9 +238,7 @@ overflow: hidden;
     position: absolute;
     top: 10px;
     left: 2px;
-    
   }
-  
   #txtBusca{
     float:left;
     background-color:transparent;
@@ -233,4 +261,60 @@ overflow: hidden;
     position: absolute;
   }
 
+/*layout das abas com navegação*/
+.nav_tabs{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: relative;
+}
+.nav_tabs ul{
+    list-style: none;
+}
+.nav_tabs ul li{
+    float: left;
+}
+.tab_label{
+    display: block;
+    width: 200px;
+    background-color:rgb(207, 207, 207);
+    padding: 10px;
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+}
+.nav_tabs .rd_tab { 
+    display:none;
+    position: absolute;
+}
+.nav_tabs .rd_tab:checked ~ label { 
+    background-color: #23d1ce;
+    color:#fff;
+    border: solid 1px;
+    border-color: #000000;
 
+}
+.tab-content{
+    border-top: solid 5px #941095;
+    background-color: rgb(253, 117, 117);
+    display: none;
+    color: #000000;
+    position: absolute;
+    height: 500px;
+    width: 95%;
+    left: 0;	
+}
+.rd_tab:checked ~ .tab-content{
+    display: block;
+}
+.tab-content h2{
+    padding: 10px;
+    color: #87d3b7;
+}
+.tab-content article{
+    padding: 10px;
+    color: #555;
+}

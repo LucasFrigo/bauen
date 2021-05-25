@@ -19,12 +19,13 @@ body {
 /*Layout Central da tela */
 .sub_center{
     width: 45%;
-    height: 700px;
-    background: rgb(255,150,255);
+    height: 800px;
+    background: rgb(255, 255, 255);
     position: absolute;
     top: 35px;
     left: 290px;
     overflow: hidden;
+    
 }
 /*Layout superior central*/
 .upper_center{
@@ -36,17 +37,8 @@ body {
     left: 0px;
     overflow: hidden;
 }
-.upper_gray{
-    width: 98%;
-    height: 150px;
-    background: rgba(196,196,196,1);
-    position: absolute;
-    top: 75px;
-    left: 7px;
-    border-radius: 10px;
-    overflow: hidden;
-}
-.txt_MinhaCla{
+
+.txt_estatisticas{
     width: 400px;
     color: rgba(0,0,0,1);
     position: absolute;
@@ -54,9 +46,60 @@ body {
     left: 2px;
     font-family: sans-serif;
     font-weight: Bold;
-    font-size: 32px;
+    font-size: 25px;
     text-align: left;
 }
+.upper_gray{
+    width: 98%;
+    height: 185px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: 60px;
+    left: 7px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: solid 1px;
+   
+}
+
+
+/*Div do meio do layout central*/
+.middle_center{
+    width: 100%;
+    height: 190px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: 250px;
+    left: 0px;
+   padding: 7px;
+}
+
+.middle_center .banner_grafico{
+    width: 54%;
+    height: 160px;
+    background: rgb(255, 255, 255);
+    float: left;
+    border-radius: 10px;
+    border: solid 1px;
+    padding: 5px;
+
+}
+.middle_center .banner_avancado{
+    width: 41%;
+    height: 160px;
+    background: rgb(255, 213, 0);
+    opacity: 1;
+    float: left;
+    position: relative;
+    top: auto;
+    left: 30px;
+    border-radius: 10px;
+    border: solid 1px;
+    padding: 5px;
+}
+
+
+
 
 /* Layout  centro Inferior(aulas)*/
 
@@ -65,59 +108,56 @@ body {
     height: 500px;
     background:  rgb(255, 255, 255);
     position: absolute;
-    top: 250px;
+    top: 440px;
     left: 0;
-    overflow: scroll;
+    overflow: hidden;
 }
-.txt_aula{
+.txt_avanco{
     width: 200px;
     color: rgba(0,0,0,1);
-    position: relative;
+    position: absolute;
     top: 15px;
-    left: 15px;
+    left: 7px;
     font-family: sans-serif;
     font-weight: Bold;
-    font-size: 32px;
+    font-size: 25px;
     text-align: left;
 }
 
-.white_barAulas{
-    width: 97%;
-    height: 70px;
+.banners{
+    width: 270px;
+    height: 75px;
     background: rgb(255, 255, 255);
+    opacity: 1;
+    border: solid 1px;
     border-radius: 10px;
-    border: solid 1px ;
-    border-color: #000000;
-    overflow: hidden;   
+    padding: 5px;
 }
 
-#blue_minhaconta{
-    position: relative;
-    top: 30px;
-    left: 15px;
-}
-#blue_notifi{
-    position: relative;
+.low_center #ban1{
     top: 60px;
-    left: 15px;
-}
-#blue_acess{
-    position: relative;
-    top: 90px;
-    left: 15px;
-}
-
-#blue_person{
-    position: relative;
-    top: 120px;
-    left: 15px;
-}
-
-#blue_privac{
-    position: relative;
+    left: 10px;
+    position: absolute; 
+ }
+.low_center #ban2{
     top: 150px;
-    left: 15px;
+    left: 10px;
+    position: absolute;  
+    
 }
+.low_center #ban3{
+    top: 60px;
+    left: 330px;
+    position: relative;
+}
+
+.low_center #ban4{
+    top: 75px;
+    left: 330px;
+    position: relative;  
+}  
+
+
 
 /*Layout Direito (Barra branca)*/
 
