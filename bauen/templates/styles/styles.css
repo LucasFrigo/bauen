@@ -1,0 +1,78 @@
+body {
+    background-color: #efca08;
+    overflow: hidden;
+}
+
+h2 {
+    padding: 50px;
+    padding-left: 0;
+}
+
+.btn {
+    background-color: #1fb6a7;
+    margin-bottom: 20px;
+}
+
+.divider {
+    overflow: hidden;
+    text-align: center;
+}
+  
+.divider:before,
+.divider:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+  
+.divider:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+  
+.divider:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.wrapper-login {
+    background-color: white;
+    margin-left: 45%;
+    min-height: 1000px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+#login-gmail {
+    margin-right: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#enviar {
+    margin:0 auto;
+    display:block;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+#btn-redirect-cadastro {
+    background-color: transparent;
+    border: transparent;
+    position: absolute;
+    right: 0;
+    margin-right: 20px
+}
+
+#login-wrapper {
+    margin-top: 60px;
+}

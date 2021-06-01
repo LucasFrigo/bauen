@@ -1,0 +1,453 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: #ffffff;
+    overflow: scroll;    
+}
+
+.lay_white{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+/*Layout Central da tela */
+.sub_center{
+    width: 45%;
+    height: 700px;
+    background: rgb(255,150,255);
+    position: absolute;
+    top: 35px;
+    left: 290px;
+    overflow: hidden;
+}
+/*Layout superior central*/
+.upper_center{
+    width: 100%;
+    height: 250px;
+    background:  rgb(255, 255, 255);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+.upper_gray{
+    width: 98%;
+    height: 150px;
+    background: rgba(196,196,196,1);
+    position: absolute;
+    top: 75px;
+    left: 7px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.txt_MinhaCla{
+    width: 400px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 15px;
+    left: 2px;
+    font-family: sans-serif;
+    font-weight: Bold;
+    font-size: 32px;
+    text-align: left;
+}
+
+/* Layout  centro Inferior(aulas)*/
+
+.low_center{
+    width: 100%;
+    height: 500px;
+    background:  rgb(255, 255, 255);
+    position: absolute;
+    top: 250px;
+    left: 0;
+    overflow: scroll;
+}
+.txt_aula{
+    width: 200px;
+    color: rgba(0,0,0,1);
+    position: relative;
+    top: 15px;
+    left: 15px;
+    font-family: sans-serif;
+    font-weight: Bold;
+    font-size: 32px;
+    text-align: left;
+}
+
+.white_barAulas{
+    width: 97%;
+    height: 70px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: solid 1px ;
+    border-color: #000000;
+    overflow: hidden;   
+}
+
+#blue_minhaconta{
+    position: relative;
+    top: 30px;
+    left: 15px;
+}
+#blue_notifi{
+    position: relative;
+    top: 60px;
+    left: 15px;
+}
+#blue_acess{
+    position: relative;
+    top: 90px;
+    left: 15px;
+}
+
+#blue_person{
+    position: relative;
+    top: 120px;
+    left: 15px;
+}
+
+#blue_privac{
+    position: relative;
+    top: 150px;
+    left: 15px;
+}
+
+/*Layout Direito (Barra branca)*/
+
+.bar_right_white{
+    width: 300px;
+    height: 700px;
+    background:rgb(255, 255, 255);
+    position: absolute;
+    top: 115px;
+    left: 920px;
+    border-radius: 15px;
+
+}
+/*Layout do calendario*/
+.campo_data_calend{
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+/*Layout do Caledario de atividades*/
+.calend_ativ{
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 800px;
+    position: relative;
+    overflow: scroll;
+}
+
+.txt_calend{
+    width: 100px;
+    color: rgb(0,0,0);
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: Bold;
+    font-size: 25px;
+    text-align: left;
+}
+
+.txt_data{
+    width: 100px;
+    color: rgb(0,0,0);
+    position: relative;
+    top: 50px;
+    left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: Bold;
+    font-size: 16px;
+    text-align: left;
+}
+
+.hora{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background: #ffffff;   
+    border-bottom: solid 1px;
+}
+#link_posidata{
+    left: 30px;
+    bottom: 5px;
+    position: relative;
+}
+
+.oito{
+    position: relative;
+    top: 50px;
+    left: 0px;
+}
+.oito_meia{
+    position: relative;
+    top: 60px;
+    left: 0px;
+}
+.nove{
+    position: relative;
+    top: 70px;
+    left: 0px;
+}
+.nove_meia{
+    position: relative;
+    top: 80px;
+    left: 0px;
+}
+.dez{
+    position: relative;
+    top: 90px;
+    left: 0px;
+}
+.dez_meia{
+    position: relative;
+    top: 100px;
+    left: 0px;
+}
+.onze{
+    position: relative;
+    top: 110px;
+    left: 0px;
+}
+.onze_meia{
+    position: relative;
+    top: 120px;
+    left: 0px;
+}
+.doze{
+    position: relative;
+    top: 130px;
+    left: 0px;
+}
+.doze_meia{
+    position: relative;
+    top: 140px;
+    left: 0px;
+}
+
+
+/* Layout do lado esquerdo da tela (Barra amarela)*/
+
+.bar_left_ye{
+    width: 200px;
+    height: 98%;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    overflow: hidden;
+}
+/*Campo amarelo*/
+.campo_ye{
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 213, 0);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.anima_link{
+    width: 80px;
+    font-family: sans-serif;
+    font-weight: Bold;
+    font-size: 15px;
+    text-align: left;
+    color: #000000;
+    line-height: 45px;
+    white-space: nowrap;
+    transition-property: color;
+    transition-duration: 0.15s;
+    cursor: pointer;
+    outline: 0 none;
+    text-decoration: none;
+}
+.link_inicio{
+    position: absolute;
+    top:100px;
+    left:20px
+
+}
+.link_Mclasse{
+    position: absolute;
+    top: 160px;
+    left:20px
+
+}
+.link_Prog{
+    position: absolute;
+    top:215px;
+    left:20px
+
+}
+.link_Carr{
+    position: absolute;
+    top:270px;
+    left:20px
+
+}
+.link_Aprend{
+    position: absolute;
+    top:325px;
+    left:20px
+
+}
+.link_Config{
+    position: absolute;
+    top:380px;
+    left:20px
+}
+.link_Sair{
+    position: absolute;
+    top:435px;
+    left:20px
+}
+#link_position{
+    left: 20px;
+    top: 3px;
+    position: relative;
+}
+/* Layout da barra de pesquisa*/
+.space_bar-pesquisa{
+    background: rgb(255, 255, 255);
+    width: 29%;
+    height: 9%;
+    left: 64%;
+  /*right:8%;*/
+    top: 30px;
+    position: absolute;
+}
+#divBusca{
+    background-color:rgb(255,255,255);
+    border:solid 1px;
+    border-radius:15px;
+    width:70%;
+    height: 60%;
+    position: absolute;
+    top: 10px;
+    left: 2px;
+  }
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    color: rgba(0,0,0,1);
+    padding-left:5px;
+    font-style:italic;
+    font-size:16px;
+    border:none;
+    height:32px;
+    width:260px;
+  }
+  .id-user{
+    background-color:rgba(196,196,196,1);
+    border:solid 1px;
+    border-radius:20px;
+    width:20%;
+    right: 2px;
+    height:90%;
+    top: 2px;
+    position: absolute;
+  }
+  /*  Calendario*/
+  .container {
+    width: 100%;
+    height: 48%;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calendar {
+    width: 100%;
+    height: 90%;
+    background-color: #ffffff;
+    box-shadow: 0 0.1rem 2rem rgba(0, 0, 0, 0.4);
+}
+.month {
+  width: 100%;
+  height: 70px;
+  background-color: #aef8c4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  text-align: center;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+.month i {
+  font-size: 30px;
+  cursor: pointer;
+}
+.month h1 {
+  font-size: 16px;
+  font-weight: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 15px;
+}
+.month p {
+  font-size: 16px;
+}
+.weekdays {
+  width: 100%;
+  height: 25px;
+  padding: 0 0.4rem;
+  display: flex;
+  align-items: center;
+}
+.weekdays div {
+  font-size: 16px;
+  font-weight: 10px;
+  letter-spacing: 0.1rem;
+  width: calc(24.2rem / 7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+.days {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.2rem;
+}
+.days div {
+  font-size: 15px;
+  margin: 0.1rem;
+  width: calc(15rem / 7);
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+  transition: background-color 0.2s;
+}
+.days div:hover:not(.today) {
+  background-color: #e4dcdc;
+  border: 0.2rem solid rgb(82, 81, 81);
+  cursor: pointer;
+}
+.prev-date,
+.next-date {
+  opacity: 0.5;
+}
+.today {
+  background-color: #60f3bb;
+}
+
