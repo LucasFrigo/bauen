@@ -78,8 +78,12 @@ WSGI_APPLICATION = 'bauen.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'mysql_db',
+        'USER': 'Admin0021',
+        'PASSWORD': 'Bauen2021.1',
+        'HOST': 'bauen.cslsya36t0vg.sa-east-1.rds.amazonaws.com',
+        'PORT': '3306'
     }
 }
 
